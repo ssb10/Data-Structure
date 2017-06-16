@@ -18,19 +18,5 @@ class Stack(object):
         return len(self.stack) == 0
 
     def display(self):
-        return str(self.stack)
-
-print("--Stack Implementation--")
-
-s = Stack()
-s.push(8)
-d=s.display()
-print(d)
-s.push(9)
-d=s.display()
-print(d)
-s.pop()
-s.is_empty()
-d=s.display()
-print(d)
+        return 'Stack:'+ str(self.stack)
 
